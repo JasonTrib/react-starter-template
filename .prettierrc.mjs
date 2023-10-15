@@ -3,17 +3,6 @@
 export default {
   printWidth: 120,
   singleQuote: true,
-  overrides: [
-    {
-      files: ['**/overrides/**'],
-      excludeFiles: ['*/overrides/**/exception.tsx'],
-      options: {
-        semi: false,
-        singleQuote: false,
-        trailingComma: 'none',
-      },
-    },
-  ],
 };
 
 /** Default Options */
