@@ -11,19 +11,19 @@ const runCommand = (command) => {
   return true;
 };
 
-const repoName = process.argv[2];
+const repoName = process.argv[2] || 'react-starter-template';
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/JasonTrib/react-starter-template.git ${repoName}`;
 const removeGitCommand = `rm -rf ./${repoName}/.git`;
 
-console.log(`Cloning the repository with name ${repoName}`);
 const checkedOut = runCommand(gitCheckoutCommand);
 if (!checkedOut) process.exit(-1);
 
 const removedGit = runCommand(removeGitCommand);
 if (!removedGit) process.exit(-1);
 
-console.log(`Success! Paste the following commands to get started:\n`);
+console.log('\nSuccess! Here are some commands to get started:\n');
 
 console.log(`cd ${repoName}`);
-console.log(`pnpm install`);
-console.log(`pnpm run dev`);
+console.log('npm install -g pnpm');
+console.log('pnpm install');
+console.log('pnpm run dev');
