@@ -1,7 +1,7 @@
 {
-  "name": "react-starter-template",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@jason-trib/create-react-starter-template",
+  "bin": "/bin/cli.js",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
