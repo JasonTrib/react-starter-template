@@ -24,6 +24,5 @@ if (!removedGit) process.exit(-1);
 console.log('\nSuccess! Here are some commands to get started:\n');
 
 console.log(`cd ${repoName}`);
-console.log('npm install -g pnpm');
-console.log('pnpm install');
-console.log('pnpm run dev');
+console.log('npm install');
+console.log('npm run dev');
