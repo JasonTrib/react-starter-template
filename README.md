@@ -1,5 +1,8 @@
-# React + TypeScript + Vite
+# @jason-trib/create-react-starter-template
 
+A tool for quickly bootstraping a React app (similar to create-react-app) with a pre-configured development setup
+
+Sets up a `React` + `TypeScript` + `Vite` environment  
 Includes an `eslint` + `stylelint` + `prettier` configuration to help you get straight into development
 
 ## Getting started
