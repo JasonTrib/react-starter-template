@@ -2,7 +2,7 @@
 
 A tool for quickly bootstraping a React app (similar to create-react-app) with a pre-configured development setup
 
-Sets up a `React` + `TypeScript` + `Vite` environment  
+Sets up a `React` + `TypeScript` + `Vite` + `Tailwind` environment  
 Includes an `eslint` + `stylelint` + `prettier` configuration to help you get straight into development
 
 ## Getting started
