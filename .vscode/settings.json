@@ -26,4 +26,7 @@
     "*.scss": "$(capture).css",
     ".prettierrc.*": ".prettierignore"
   },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
 }
